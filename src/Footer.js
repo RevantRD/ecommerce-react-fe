@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+//Footer component to display all the links for the page
+//Used NavLink tag to link the page
 const Footer = () => {
   return (
     <footer className="footer-bg">

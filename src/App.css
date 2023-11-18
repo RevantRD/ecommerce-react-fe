@@ -1,5 +1,9 @@
+/* Small screen */
 @media (max-width: 575.98px) {
-
+.search-sm{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .glass-align {
     margin-left: 20% ;
     margin-right: 20%;
@@ -25,6 +29,19 @@
   }
   
 }
+/* Medium screen */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .search-sm{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .glass-align {
+    margin-left: 15% ;
+    margin-right: 15%;
+    
+  }
+}
+/* Stylish font for Title */
   @font-face {
     font-family: "Barcelony Signature";
     src: url("./font/Barcelony.ttf") format("truetype");
@@ -50,16 +67,15 @@ text-decoration: none;
 .navbar-custom{
     background-color: #2d545e !important;
 }
+/* Background image for the body */
 body{
     background-image: url(images/login_bg-min.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-.logo{
-    height: 40px;
-    margin-top: -15px;
-}
+
+/* For glass background effect */
 #featured-products-glass {
     background: rgba(255, 255, 255, 0.45);
     backdrop-filter: blur(10px);
@@ -69,7 +85,10 @@ body{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     padding-top: 3%;
     padding-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
+  /* For styling buttons */
   #cart-btn {
     background-color: seagreen;
     transition: 0.3s;
@@ -85,11 +104,17 @@ body{
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   }
 
-
+/* Styling logo */
   #logo-text {
     color: chocolate;
     text-shadow: 1px 2px 0.5vw rgb(85, 128, 184);
   }
+  .logo{
+    height: 40px;
+    margin-top: -15px;
+}
+
+/* Styling the text to overlay above the image */
   .text-style1 {
     position: absolute;
     font-family: "barcelony signature", cursive;

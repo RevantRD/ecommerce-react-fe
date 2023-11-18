@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./images/RD.png";
+import logo from "./images/RD.png"; //Imported image as logo
 const Header = () => {
   return (
     <div>
+      {/* Navbar using bootstrap 5 */}
       <nav className="navbar navbar-custom navbar-expand-lg  ">
         <div className="container-fluid">
           <Link className="navbar-brand text-white" href="#">
@@ -26,12 +27,12 @@ const Header = () => {
           >
             <form className="d-flex mx-auto" role="search">
               <input
-                className="form-control me-2"
+                className="form-control me-2 search-sm"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-light" type="submit">
+              <button className="btn btn-outline-light search-sm" type="submit">
                 Search
               </button>
             </form>

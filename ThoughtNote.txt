@@ -1,0 +1,25 @@
+React assignment (E-Commerce homepage):
+
+First I have created a react app using npx create-react-app command.
+
+Header.js:
+In header component added code for the navbar using the Bootstrap 5 and edited some contents like brand image and text for the link tag.
+
+Footer.js:
+In footer component I have created footer contents as 4 columns for large screen which includes links for the pages that will be added on next project.
+
+HomeCover.js:
+In homecover component I have added banner for the website which will display different image for different screen sizes.
+
+Slider.js:
+And in slider component I have combined Bootstrap card with carousel to display image slider and placed the image as links from the google.
+
+And the carousel was added with different content for different screen sizes.
+
+Home.js:
+In home component, all the 4 components are included to display them as a single page.
+
+App.js:
+In app component, the home component was included using browser router which was imported by installing react-router-dom.
+
+It will display the home component when the page gets loads.

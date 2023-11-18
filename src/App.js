@@ -5,6 +5,7 @@ import Home from "./Home";
 function App() {
   return (
     <div className="App">
+      {/* Browser Router to display the home component as homepage */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+//Slider component for displaying some products as Bootstrap carousel
 const Slider = () => {
   return (
     <div className="container">
-      <h1 className="text-center text-white fw-bold mt-5 mb-3" id="heading">
+      <h1 className="text-center text-white fw-bold mt-4 mb-4" id="heading">
         FEATURED PRODUCTS
       </h1>
       <div className="row">
@@ -271,123 +271,123 @@ const Slider = () => {
           {/* <!-- Medium screen --> */}
           <div
             id="medium-screen"
-            class="carousel slide d-none d-md-block d-lg-none text-center"
+            className="carousel slide d-none d-md-block d-lg-none text-center"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-6 d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className="row">
+                  <div className="col-6 d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         src="https://m.media-amazon.com/images/I/51SifvgL+VL._AC_UY1100_.jpg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Shirt</h5>
-                        <p class="card-text">
+                      <div className="card-body">
+                        <h5 className="card-title">Shirt</h5>
+                        <p className="card-text">
                           Lorem ipsum dolor sit amet consectetur adipisicing.
                         </p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/19818628/2022/9/6/ec27eee6-d613-4423-8e0f-007aea1603c31662468109188Shirts1.jpg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Shirt</h5>
-                        <p class="card-text">
+                      <div className="card-body">
+                        <h5 className="card-title">Shirt</h5>
+                        <p className="card-text">
                           Lorem ipsum dolor sit amet consectetur adipisicing.
                         </p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-6 d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-6 d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         src="https://5.imimg.com/data5/SELLER/Default/2020/12/ML/VG/LK/29174263/haldi-special-party-wear-dresses.jpeg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Dress</h5>
-                        <p class="card-text">
+                      <div className="card-body">
+                        <h5 className="card-title">Dress</h5>
+                        <p className="card-text">
                           Lorem ipsum dolor sit amet consectetur adipisicing.
                         </p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         src="https://img.faballey.com/images/Product/ITN03948Z/1.jpg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Dress</h5>
-                        <p class="card-text">
+                      <div className="card-body">
+                        <h5 className="card-title">Dress</h5>
+                        <p className="card-text">
                           Lorem ipsum dolor sit amet consectetur adipisicing.
                         </p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-6 d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-6 d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         src="https://img.faballey.com/images/Product/SKT00766Z/1.jpg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Skirt</h5>
-                        <p class="card-text">
+                      <div className="card-body">
+                        <h5 className="card-title">Skirt</h5>
+                        <p className="card-text">
                           Lorem ipsum dolor sit amet consectetur adipisicing.
                         </p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         src="https://www.onefridayworld.com/cdn/shop/products/VT4B8032_533x.jpg?v=1670651408"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Dress</h5>
-                        <p class="card-text">
+                      <div className="card-body">
+                        <h5 className="card-title">Dress</h5>
+                        <p className="card-text">
                           Lorem ipsum dolor sit amet consectetur adipisicing.
                         </p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
@@ -396,156 +396,156 @@ const Slider = () => {
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#medium-screen"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#medium-screen"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
           {/* <!-- Small screen --> */}
           <div
             id="small-screen"
-            class="carousel slide d-sm-block d-lg-none d-md-none text-center"
+            className="carousel slide d-sm-block d-lg-none d-md-none text-center"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <div className="row">
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         height="200px"
                         src="https://m.media-amazon.com/images/I/51SifvgL+VL._AC_UY1100_.jpg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Shirt</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                      <div className="card-body">
+                        <h5 className="card-title">Shirt</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         height="200px"
                         src="https://5.imimg.com/data5/SELLER/Default/2020/12/ML/VG/LK/29174263/haldi-special-party-wear-dresses.jpeg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Dress</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                      <div className="card-body">
+                        <h5 className="card-title">Dress</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         height="200px"
                         src="https://media.boohoo.com/i/boohoo/bmm22596_sand_xl/male-sand-basic-over-the-head-hoodie/?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Hoodie</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                      <div className="card-body">
+                        <h5 className="card-title">Hoodie</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         height="200px"
                         src="https://images-static.nykaa.com/uploads/8bebfdcd-2fec-454c-a4d1-ce0acd06b65a.jpg?tr=w-300,cm-pad_resize"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Dress</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                      <div className="card-body">
+                        <h5 className="card-title">Dress</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         height="200px"
                         src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/21188040/2023/2/8/b3ffd27a-3e89-4b9e-9927-ede99636f7ce1675833846139-Mast--Harbour-Women-Skirts-7991675833845629-2.jpg"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Dress</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                      <div className="card-body">
+                        <h5 className="card-title">Dress</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col d-flex justify-content-center">
-                    <div class="card" style={{ width: "12rem" }}>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col d-flex justify-content-center">
+                    <div className="card" style={{ width: "12rem" }}>
                       <img
                         height="200px"
                         src="https://imagescdn.simons.ca/images/1533-5227-16-A1_3/colour-block-hoodie.jpg?__=14"
-                        class="card-img-top image-cards"
+                        className="card-img-top image-cards"
                         alt="..."
                       />
-                      <div class="card-body">
-                        <h5 class="card-title">Hoodie</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet</p>
-                        <Link to={"#"} class="btn" id="cart-btn">
-                          <i class="fa fa-cart-shopping"></i> Add to Cart
+                      <div className="card-body">
+                        <h5 className="card-title">Hoodie</h5>
+                        <p className="card-text">Lorem ipsum dolor sit amet</p>
+                        <Link to={"#"} className="btn" id="cart-btn">
+                          <i className="fa fa-cart-shopping"></i> Add to Cart
                         </Link>
                       </div>
                     </div>
@@ -554,28 +554,28 @@ const Slider = () => {
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#small-screen"
               data-bs-slide="prev"
             >
               <span
-                class="carousel-control-prev-icon"
+                className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#small-screen"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
