@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./images/RD.png"; //Imported image as logo
+import logo from "../images/RD.png"; //Imported image as logo
 const Header = () => {
   return (
     <div>
@@ -32,7 +32,7 @@ const Header = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-light search-sm" type="submit">
+              <button className="btn btn-outline-light search-sm">
                 Search
               </button>
             </form>

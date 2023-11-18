@@ -1,7 +1,7 @@
 import React from "react";
-import bannerLarge from "./images/banner-image2-lg.jpeg";
-import bannerMedium from "./images/banner-image2-md.jpg";
-import bannerSmall from "./images/banner-image2-sm.jpeg";
+import bannerLarge from "../images/banner-image2-lg.jpeg";
+import bannerMedium from "../images/banner-image2-md.jpg";
+import bannerSmall from "../images/banner-image2-sm.jpeg";
 // Home cover component to display the banner of the site
 // This component has different images for different screen sizes for responsiveness
 const HomeCover = () => {
